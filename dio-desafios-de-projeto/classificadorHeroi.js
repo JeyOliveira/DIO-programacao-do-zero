@@ -22,7 +22,7 @@ atacar (){
         ataque = "usou shuriken!";
         break;
         default:
-            ataque = "usou um ataque desconhecido !";
+            ataque = "usou um ataque desconhecido!";
     }
     console.log(`O ${this.tipoHeroi} atacou usando ${ataque}`);
 }
