@@ -1,25 +1,25 @@
-let Heroi = "Leona"
-let Xp = 7563
+let heroi = "Leona"
+let xp = 7563
 let nivel 
 
-if (Xp < 1001) {
+if (xp < 1001) {
     nivel = "ferro"
-} else if (Xp > 1000 && Xp < 2001) {
+} else if (xp > 1000 && xp < 2001) {
     nivel = "Bronze"
 
-} else if (Xp > 2000 && Xp < 6001) {
+} else if (xp > 2000 && xp < 6001) {
     nivel = "Prata"
 
-} else if (Xp > 5000 && Xp < 7001) {
+} else if (xp > 5000 && xp < 7001) {
     nivel = "Ouro"
 
-} else if (Xp > 7000 && Xp < 8001) {
+} else if (xp > 7000 && xp < 8001) {
     nivel = "Platina"
 
-} else if (Xp > 8000 && Xp < 9001) {
+} else if (xp > 8000 && xp < 9001) {
     nivel = "Ascendente"
 
-} else if (Xp > 9000 && Xp < 10001) {
+} else if (xp > 9000 && xp < 10001) {
     nivel = "Imortal"
 
 } else{
@@ -27,4 +27,4 @@ if (Xp < 1001) {
 
 }
 
-console.log("O herói de nome " + Heroi + " está no nível de " + nivel + ".") 
+console.log("O herói de nome " + heroi + " está no nível de " + nivel + ".") 
