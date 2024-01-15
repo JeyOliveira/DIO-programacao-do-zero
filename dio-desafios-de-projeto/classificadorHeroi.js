@@ -1,14 +1,14 @@
 class heroi{
-    constructor (nomeHeroi, idadeHeroi, classeHeroi){
+    constructor (nomeHeroi, idadeHeroi, tipoHeroi){
         this.nomeHeroi = nomeHeroi
         this.idadeHeroi = idadeHeroi
-        this.classeHeroi = classeHeroi
+        this.tipoHeroi = tipoHeroi
     }
 
 atacar (){
     let ataque;
     
-    switch(this.classeHeroi) {
+    switch(this.tipoHeroi) {
         case "mago" : 
         ataque = "usou magia!";
         break;
@@ -24,7 +24,7 @@ atacar (){
         default:
             ataque = "usou um ataque desconhecido !";
     }
-    console.log(`O ${this.classeHeroi} atacou usando ${ataque}`);
+    console.log(`O ${this.tipoHeroi} atacou usando ${ataque}`);
 }
 }
 
